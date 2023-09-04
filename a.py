@@ -2,6 +2,10 @@ def main():
     print("Hello, world!")
     a = int(input("Enter a number: "))
     number(a)
+    
+
+
+    game_over()
 
 
 def number(a):
@@ -11,6 +15,12 @@ def number(a):
         print("The number is even.")
     else:
         print("The number is odd.")
+        
+def game_over():
+    print("Game over.")
+    
+    
+    
 
 
 main()
